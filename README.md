@@ -6,4 +6,4 @@ This app uses localStorage to persist location data.
 
 TODO: Review code, fix this README and check for improvements
 
-Live version at: 
+Live version at: https://rcart.github.io/openweathermap-widget/
