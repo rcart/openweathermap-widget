@@ -13,6 +13,7 @@ class UI {
     this.w_location.textContent = `${weatherObj.name}, ${weatherObj.sys.country}`
     this.w_description.textContent = weatherObj.weather[0].description;
     this.w_string.textContent = `${weatherObj.main.temp} C`;
+    // openweathermap uses a dedicated end point for images and icons
     this.w_icon.setAttribute('src', `https://openweathermap.org/img/w/${weatherObj.weather[0].icon}.png`);
     this.w_humidity.textContent = `Huminity: ${weatherObj.main.humidity} %`;
     this.w_dewpoint.textContent = `Pressure: ${weatherObj.main.pressure} hpa`;

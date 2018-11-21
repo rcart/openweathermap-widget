@@ -10,4 +10,9 @@ class Weather {
     const res = await results.json();
     return res;
   }
+
+  changeLocation(city, state) {
+    this.city = city;
+    this.country = state;
+  }
 }
